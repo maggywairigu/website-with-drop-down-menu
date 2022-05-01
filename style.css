@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: bottom;
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+}
+.menu{
+    background: black;
+    text-align: center;
+    font-weight: 900;
+}
+.menu ul{
+    display: inline-flex;
+    list-style-type: none;
+    color: white;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.active, .menu ul li a:hover{
+    color: rgb(223, 156, 101);
+    border-radius: 15px;
+}
+.menu .fa{
+    margin-right: 8px;
+}
+.home{
+    display: none;
+}
+.menu ul li:hover .home{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .home ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .home ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .home ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.new{
+    display: none;
+}
+.menu ul li:hover .new{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .new ul{
+    display: block;
+    margin: 10px;
+} 
+.menu ul li:hover .new ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .new ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.clothing{
+    display: none;
+}
+.menu ul li:hover .clothing{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .clothing ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .clothing ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .clothing ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.shoes{
+    display: none;
+}
+.menu ul li:hover .shoes{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .shoes ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .shoes ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .shoes ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.bags{
+    display: none;
+}
+.menu ul li:hover .bags{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .bags ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .bags ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .bags ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.accessories{
+    display: none;
+}
+.menu ul li:hover .accessories{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .accessories ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .accessories ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .accessories ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.jewellery{
+    display: none;
+}
+.menu ul li:hover .jewellery{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .jewellery ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .jewellery ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .jewellery ul li a:hover{
+    color: rgb(236, 169, 43);
+}
+.sale{
+    display: none;
+}
+.menu ul li:hover .sale{
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu ul li:hover .sale ul{
+    display: block;
+    margin: 10px;
+}
+.menu ul li:hover .sale ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(255, 102, 0);
+    background: transparent;
+    text-align: left;
+}
+.menu ul li:hover .sale ul li a:hover{
+    color: rgb(236, 169, 43);
+}
